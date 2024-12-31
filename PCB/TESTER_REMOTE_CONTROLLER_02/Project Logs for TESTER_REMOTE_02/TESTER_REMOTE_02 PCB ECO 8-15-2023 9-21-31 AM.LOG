@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=GND Pin=D3-2
+Removed Pin From Net: NetName=GND Pin=D4-2
+Removed Pin From Net: NetName=P_7SEG_A Pin=P1-3
+Removed Pin From Net: NetName=P_7SEG_C Pin=P1-4
+Removed Pin From Net: NetName=P_KEY_4 Pin=U1-4
+Removed Pin From Net: NetName=PI2C_SCK Pin=U1-7
+Removed Pin From Net: NetName=PI2C_SDA Pin=U1-8
+Removed Member From Class: ClassName=TESTER_REMOTE_CONTROLLER_01 Member=D3
+Removed Member From Class: ClassName=TESTER_REMOTE_CONTROLLER_01 Member=D4
+Change Component Footprint: Designator=R15 Old Footprint=SMD 1206 New Footprint=SMD 0805
+Change Component Comment : Designator=R15 Old Comment=330R New Comment=1K
+Change Component Comment : Designator=R17 Old Comment=330R New Comment=1K
+Added Component: Designator=P7(CON XH 2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=R56(SMD 1206)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R57(SMD 0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=P_7SEG_A Pin=R15-1
+Added Pin To Net: NetName=P_7SEG_C Pin=R17-1
+Added Pin To Net: NetName=VCC Pin=R56-1
+Added Pin To Net: NetName=GND Pin=R57-2
+Added Pin To Net: NetName=PI2C_SDA Pin=U1-3
+Added Pin To Net: NetName=PI2C_SDA Pin=U1-3
+Added Pin To Net: NetName=PI2C_SDA Pin=U1-3
+Added Pin To Net: NetName=PI2C_SDA Pin=U1-3
+Added Pin To Net: NetName=PI2C_SCK Pin=U1-4
+Added Pin To Net: NetName=P_KEY_4 Pin=U1-7
+Added Pin To Net: NetName=P_KEY_3 Pin=U1-8
+Added Pin To Net: NetName=NetP1_3 Pin=P1-3
+Added Pin To Net: NetName=NetP1_3 Pin=R15-2
+Added Net: Name=NetP1_3
+Added Pin To Net: NetName=NetP1_4 Pin=P1-4
+Added Pin To Net: NetName=NetP1_4 Pin=R17-2
+Added Net: Name=NetP1_4
+Added Pin To Net: NetName=P_DETECTIONPIN1 Pin=P7-1
+Added Pin To Net: NetName=P_DETECTIONPIN1 Pin=R56-2
+Added Pin To Net: NetName=P_DETECTIONPIN1 Pin=U1-21
+Added Net: Name=P_DETECTIONPIN1
+Added Pin To Net: NetName=P_DETECTIONPIN2 Pin=P7-2
+Added Pin To Net: NetName=P_DETECTIONPIN2 Pin=R57-1
+Added Pin To Net: NetName=P_DETECTIONPIN2 Pin=U1-22
+Added Net: Name=P_DETECTIONPIN2
+Change Class Name : Old Net Name=TESTER_REMOTE_CONTROLLER_01 New Net Name=TESTER_REMOTE_CONTROLLER_02
+Change Class Name : Old Net Name=TESTER_REMOTE_STEPPER_DRIVER_01 New Net Name=TESTER_REMOTE_STEPPER_DRIVER_02
+Change Class Name : Old Net Name=TESTER_REMOTE_SWITCHING_01 New Net Name=TESTER_REMOTE_SWITCHING_02
+Added Member To Class: ClassName=TESTER_REMOTE_CONTROLLER_02 Member=Component P7 INPUT_VERIFY
+Added Member To Class: ClassName=TESTER_REMOTE_CONTROLLER_02 Member=Component R56 1K
+Added Member To Class: ClassName=TESTER_REMOTE_CONTROLLER_02 Member=Component R57 1K
+Added Room: Name=TESTER_REMOTE_CONTROLLER_02
+Added Room: Name=TESTER_REMOTE_STEPPER_DRIVER_02
+Added Room: Name=TESTER_REMOTE_SWITCHING_02

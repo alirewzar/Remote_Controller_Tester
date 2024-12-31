@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=R16 Old Footprint=SMD 1206 New Footprint=SMD 0805
+Added Room: Name=TESTER_REMOTE_CONTROLLER_02
+Added Room: Name=TESTER_REMOTE_STEPPER_DRIVER_02
+Added Room: Name=TESTER_REMOTE_SWITCHING_02

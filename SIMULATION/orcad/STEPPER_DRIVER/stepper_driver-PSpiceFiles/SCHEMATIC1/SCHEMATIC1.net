@@ -1,0 +1,21 @@
+* source STEPPER_DRIVER
+Q_Q1         N03171 N03031 V24 BCX52_1 
+R_R1         N03031 V24  10k TC=0,0 
+X_D2         0 N03171 awbuf4004 PARAMS:                
+R_R6         N03069 V24  10k TC=0,0 
+X_D4         0 N03207 awbuf4004 PARAMS:                
+R_R9         VCC N03451  330 TC=0,0 
+Q_Q2         N03171 N03423 0 BCX55_1 
+Q_Q3         N03207 N03069 V24 BCX52_1 
+R_R2         0 N03423  330 TC=0,0 
+X_D3         N03207 V24 awbuf4004 PARAMS:                
+R_R3         0 N03423  10k TC=0,0 
+R_R7         N03171 N03069  1k TC=0,0 
+R_R5         N03207 N03031  1k TC=0,0 
+V_V2         VCC 0 5Vdc
+Q_Q4         N03207 N03451 0 BCX55_1 
+X_D1         N03171 V24 awbuf4004 PARAMS:                
+R_R10         0 N03451  10k TC=0,0 
+V_V1         V24 0 24Vdc
+R_R4         N03207 N03031  1k TC=0,0 
+R_R8         N03171 N03069  1k TC=0,0 

@@ -1,0 +1,190 @@
+
+**** 09/21/23 09:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-prjj"  [ E:\comp_projects\5_TESTER_REMOTE_CONTROLLER\orcad\STEPPER_DRIVER\stepper_driver-pspicefiles\schemat
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "prjj.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\S.Rajabi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10s 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source STEPPER_DRIVER
+Q_Q1         N03171 N03031 V24 BCX52_1 
+R_R1         N03031 V24  10k TC=0,0 
+X_D2         0 N03171 awbuf4004 PARAMS:                
+R_R6         N03069 V24  10k TC=0,0 
+X_D4         0 N03207 awbuf4004 PARAMS:                
+R_R9         VCC N03451  330 TC=0,0 
+Q_Q2         N03171 N03423 0 BCX55_1 
+Q_Q3         N03207 N03069 V24 BCX52_1 
+R_R2         0 N03423  330 TC=0,0 
+X_D3         N03207 V24 awbuf4004 PARAMS:                
+R_R3         0 N03423  10k TC=0,0 
+R_R7         N03171 N03069  1k TC=0,0 
+R_R5         N03207 N03031  1k TC=0,0 
+V_V2         VCC 0 5Vdc
+Q_Q4         N03207 N03451 0 BCX55_1 
+X_D1         N03171 V24 awbuf4004 PARAMS:                
+R_R10         0 N03451  10k TC=0,0 
+V_V1         V24 0 24Vdc
+R_R4         N03207 N03031  1k TC=0,0 
+R_R8         N03171 N03069  1k TC=0,0 
+
+**** RESUMING prjj.cir ****
+.END
+
+WARNING(ORPSIM-15228): Minimum base resistance (RBM) is greater than total (RB) for model BCX52_1.  RBM set to RB
+
+**** 09/21/23 09:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-prjj"  [ E:\comp_projects\5_TESTER_REMOTE_CONTROLLER\orcad\STEPPER_DRIVER\stepper_driver-pspicefiles\schemat
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_D2.model22    X_D4.model22    X_D3.model22    X_D1.model22    
+          IS    1.033380E-09    1.033380E-09    1.033380E-09    1.033380E-09 
+           N    1.29628         1.29628         1.29628         1.29628      
+          BV  400             400             400             400            
+         IBV     .05             .05             .05             .05         
+          RS     .11             .11             .11             .11         
+          TT  134.000000E-09  134.000000E-09  134.000000E-09  134.000000E-09 
+         CJO   38.000000E-12   38.000000E-12   38.000000E-12   38.000000E-12 
+          VJ     .15             .15             .15             .15         
+           M     .24805          .24805          .24805          .24805      
+         XTI    3.2             3.2             3.2             3.2          
+
+
+**** 09/21/23 09:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-prjj"  [ E:\comp_projects\5_TESTER_REMOTE_CONTROLLER\orcad\STEPPER_DRIVER\stepper_driver-pspicefiles\schemat
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BCX52_1         BCX55_1         
+               PNP             NPN             
+       LEVEL    1               1            
+          IS    4.600000E-12    3.060000E-15 
+          BF  185             129            
+          NF    1.19             .855        
+         VAF  144             724            
+         IKF     .969            .906        
+         ISE   19.900000E-15  162.000000E-18 
+          NE    1.23            1            
+          BR    4.28            2.92         
+          NR    1.23             .91         
+         VAR   19.7            54.6          
+         IKR    1               1            
+         ISC   94.500000E-18   40.800000E-15 
+          NC                    1            
+         ISS    0               0            
+          RB    4.84           16.5          
+         RBM   10                .0173       
+         IRB     .162            .0238       
+          RE     .01             .0126       
+          RC     .262            .311        
+         CJE  127.000000E-12  117.000000E-12 
+         VJE     .543            .3          
+         MJE     .494            .422        
+         CJC   80.000000E-12   48.500000E-12 
+         VJC     .362            .3          
+         MJC     .507            .509        
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+         MJS     .33             .33         
+          TF    1.070000E-09    1.420000E-09 
+         XTF     .631            .775        
+         VTF  999.000000E+03  999.000000E+03 
+         ITF     .453            .564        
+          KF    0               0            
+          AF    1               1            
+          CN    2.2             2.42         
+           D     .52             .87         
+
+
+WARNING(ORPSIM-15228): Minimum base resistance (RBM) is greater than total (RB) for model BCX52_1.  RBM set to RB
+
+**** 09/21/23 09:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-prjj"  [ E:\comp_projects\5_TESTER_REMOTE_CONTROLLER\orcad\STEPPER_DRIVER\stepper_driver-pspicefiles\schemat
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  V24)   24.0000  (  VCC)    5.0000  (N03031)   23.0170 (N03069)   24.0150     
+
+(N03171)   24.0160 (N03207)     .0206 (N03423) 2.641E-09 (N03451)     .8083 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -1.270E-02
+    V_V1        -4.599E-02
+
+    TOTAL POWER DISSIPATION   1.17E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/21/23 09:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-prjj"  [ E:\comp_projects\5_TESTER_REMOTE_CONTROLLER\orcad\STEPPER_DRIVER\stepper_driver-pspicefiles\schemat
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

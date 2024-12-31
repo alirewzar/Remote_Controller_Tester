@@ -1,0 +1,59 @@
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=C2
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=D4
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=D7
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=D8
+Removed Member From Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=D16
+Removed Member From Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=D21
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=P3
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=P4
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R19
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R21
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R22
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R23
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R24
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R25
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R29
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R30
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R31
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R32
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R35
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=R37
+Removed Member From Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=R39
+Removed Member From Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=R40
+Removed Member From Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=R41
+Removed Member From Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=R43
+Removed Member From Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=R44
+Removed Member From Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=R46
+Removed Member From Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=R50
+Removed Member From Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=R54
+Removed Member From Class: ClassName=220 Member=NetC9_1
+Removed Member From Class: ClassName=220 Member=NetC9_2
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component C18 100uF-16V
+Added Member To Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=Component D9 UF4007
+Added Member To Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=Component D10 UF4007
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component D17 UF4007
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component D20 1N5255B-28V
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component D21 ZM4748A-22V
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component P6 CONNECTOR 1
+Added Member To Class: ClassName=TESTER_REMOTE_CONTROLLER_02 Member=Component R17 10K
+Added Member To Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=Component R19 10K
+Added Member To Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=Component R20 10K
+Added Member To Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=Component R21 1K
+Added Member To Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=Component R23 1K
+Added Member To Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=Component R24 1K
+Added Member To Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=Component R26 330R
+Added Member To Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=Component R30 10K
+Added Member To Class: ClassName=TESTER_REMOTE_STEPPER_DRIVER_02 Member=Component R34 1K
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component R39 390R
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component R40 2.2K
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component R41 2.2K
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component R42 200R
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component R46 6.34K
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component R47 470K
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component R48 470K
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component R49 47R
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component R52 4.3M
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component R53 680R
+Added Member To Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=Component R54 3.9M
+Added Member To Class: ClassName=220 Member=Wire NetC8_1
+Added Member To Class: ClassName=220 Member=Wire NetC8_2

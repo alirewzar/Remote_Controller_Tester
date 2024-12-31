@@ -1,0 +1,242 @@
+
+Linker Version 8.7.7.220718
+Input Object File: e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ
+Input Object File: e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\STARTUP1_L.OBJ
+
+Input Library File: D:\ProgramFile\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: D:\ProgramFile\HT-IDE3000V8.x\LIB\v3_lmrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0001h     0001h    0001h      CODE               @start (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0002h     0006h    0005h      CODE               @crom (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0008h     000bh    0004h      CODE               @INT1_INT_FUN_code (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     000ch     0012h    0007h      CODE               _TIMER1_INT_FUN (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0014h     0017h    0004h      CODE               @TIMER0_INT_FUN_code (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0018h     001bh    0004h      CODE               @TIMER1_INT_FUN_code (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     001ch     00ceh    00b3h      CODE               _TIMER0_INT_FUN (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00cfh     00e8h    001ah      CODE               _INT1_INT_FUN (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00e9h     0110h    0028h      CODE               _initializeHardware (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0111h     012eh    001eh      CODE               _initializeSoftware (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     012fh     016ah    003ch      CODE               _runCountTask (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     016bh     0196h    002ch      CODE               _stepperUp (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0197h     01c2h    002ch      CODE               _stepperDown (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     01c3h     02c4h    0102h      CODE               _fSegmentDisplay (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     02c5h     02e9h    0025h      CODE               _main (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     02eah     02f7h    000eh      CODE               _CROM2PROM (CROM2PROM)
+     00h     0080h     0080h    0001h      DATA     3         @data_ra (D:\ProgramFile\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     9         @data_rb (D:\ProgramFile\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     9         @data_rc (D:\ProgramFile\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     5         @data_rd (D:\ProgramFile\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     1         @data_re (D:\ProgramFile\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     1         @data_rf (D:\ProgramFile\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     1         @data_rg (D:\ProgramFile\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     2         @data_r114 (isr:ra~rh)
+     00h     0088h     0088h    0001h      DATA     2         @data_r214 (isr:ra~rh)
+     00h     0089h     0089h    0001h      DATA     12        @data_rb14 (isr:ra~rh)
+     00h     008ah     008ah    0001h      DATA     12        @data_rc14 (isr:ra~rh)
+     00h     008bh     008bh    0001h      DATA     9         @data_ra14 (isr:ra~rh)
+     00h     008ch     008ch    0001h      DATA     5         @data_rd14 (isr:ra~rh)
+     00h     008dh     008dh    0001h      DATA     4         @data_re14 (isr:ra~rh)
+     00h     008eh     008eh    0001h      DATA     3         @data_rf14 (isr:ra~rh)
+     00h     008fh     008fh    0001h      DATA     2         @data_rg14 (isr:ra~rh)
+     00h     0090h     0090h    0001h      DATA     2         @data_rh14 (isr:ra~rh)
+     00h     0091h     0091h    0001h      DATA     2         @data_r118 (isr:ra~rh)
+     00h     0092h     0092h    0001h      DATA     2         @data_r218 (isr:ra~rh)
+     00h     0093h     0093h    0001h      DATA     2         @data_r108 (isr:ra~rh)
+     00h     0094h     0094h    0001h      DATA     2         @data_r208 (isr:ra~rh)
+     00h     0095h     0095h    0001h      DATA     6         @data_ra08 (isr:ra~rh)
+     00h     0097h     0097h    0001h      DATA     18        @HCCINIT0_segDigitDisplayNum (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0098h     0098h    0001h      DATA     17        @HCCINIT0_rTaskflag (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0099h     009ch    0004h      DATA     13        @HCCINIT0_segDisplayNumPreparing (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     009dh     009dh    0001h      DATA     11        @HCCINIT0_stateStepper (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     009eh     009eh    0001h      DATA     8         @HCCINIT0_segDigitSelect (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     009fh     009fh    0001h      DATA     7         @HCCINIT0_k (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00a0h     00a1h    0002h      DATA     6         @HCCINIT0_rCountTask (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00a2h     00a2h    0001h      DATA     6         @HCCINIT0_rTaskflag1 (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00a3h     00a3h    0001h      DATA     5         @HCCINIT0_receiveDataShifter (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00a4h     00a4h    0001h      DATA     5         @HCCINIT0_dataReceiveHelp (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00a5h     00a5h    0001h      DATA     4         @HCCINIT0_stableInteger (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00a6h     00a9h    0004h      DATA     4         @HCCINIT0_receiveData (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00aah     00adh    0004h      DATA     3         @HCCINIT0_segmentDisplayNumber (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00aeh     00b1h    0004h      DATA     3         @HCCINIT0_shiftData (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00b2h     00e1h    0030h      DATA     0         @HCCINIT0_receiveDataBit (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     00e2h     00e2h    0001h      DATA     2         @data_r314 (isr:ra~rh)
+     00h     00e3h     00e3h    0001h      DATA     2         @data_r414 (isr:ra~rh)
+     00h     00e4h     00e4h    0001h      DATA     2         @data_r514 (isr:ra~rh)
+     00h     00e5h     00e5h    0001h      DATA     2         @data_r614 (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0096h     0096h    0000h      LOCAL    0         @dummy20 (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _TIMER0_INT_FUN (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     0096h     0096h    0000h      LOCAL    0         @dummy24 (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _TIMER1_INT_FUN (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         @dummy8 (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _INT1_INT_FUN (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         @dummy (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _main (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _initializeHardware (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _initializeSoftware (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _runCountTask (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0096h     0096h    0001h      LOCAL    5         _fSegmentDisplay (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0096h     0096h    0001h      LOCAL    4         _stepperUp (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+     00h     0096h     0096h    0001h      LOCAL    4         _stepperDown (e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     02eah              _Crom2Prom
+     02eah              _Crom2PromNext
+     00cfh              _INT1_INT_FUN
+     001ch              _TIMER0_INT_FUN
+     000ch              _TIMER1_INT_FUN
+     00a4h              _dataReceiveHelp
+     01c3h              _fSegmentDisplay
+     00e9h              _initializeHardware
+     0111h              _initializeSoftware
+     009fh              _k
+     02c5h              _main
+     00a0h              _rCountTask
+     0098h              _rTaskflag
+     00a2h              _rTaskflag1
+     00a6h              _receiveData
+     00b2h              _receiveDataBit
+     00a3h              _receiveDataShifter
+     012fh              _runCountTask
+     0097h              _segDigitDisplayNum
+     009eh              _segDigitSelect
+     0099h              _segDisplayNumPreparing
+     00aah              _segmentDisplayNumber
+     00aeh              _shiftData
+     00a5h              _stableInteger
+     009dh              _stateStepper
+     0197h              _stepperDown
+     016bh              _stepperUp
+     0002h              _tblSegmentNumberSelect
+     0093h              r108
+     0087h              r114
+     0091h              r118
+     0094h              r208
+     0088h              r214
+     0092h              r218
+     00e2h              r314
+     00e3h              r414
+     00e4h              r514
+     00e5h              r614
+     0080h              ra
+     0095h              ra08
+     008bh              ra14
+     0081h              rb
+     0089h              rb14
+     0082h              rc
+     008ah              rc14
+     0083h              rd
+     008ch              rd14
+     0084h              re
+     008dh              re14
+     0085h              rf
+     008eh              rf14
+     0086h              rg
+     008fh              rg14
+     0090h              rh14
+
+     Address            Public by Value
+     0002h              _tblSegmentNumberSelect
+     000ch              _TIMER1_INT_FUN
+     001ch              _TIMER0_INT_FUN
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              r114
+     0088h              r214
+     0089h              rb14
+     008ah              rc14
+     008bh              ra14
+     008ch              rd14
+     008dh              re14
+     008eh              rf14
+     008fh              rg14
+     0090h              rh14
+     0091h              r118
+     0092h              r218
+     0093h              r108
+     0094h              r208
+     0095h              ra08
+     0097h              _segDigitDisplayNum
+     0098h              _rTaskflag
+     0099h              _segDisplayNumPreparing
+     009dh              _stateStepper
+     009eh              _segDigitSelect
+     009fh              _k
+     00a0h              _rCountTask
+     00a2h              _rTaskflag1
+     00a3h              _receiveDataShifter
+     00a4h              _dataReceiveHelp
+     00a5h              _stableInteger
+     00a6h              _receiveData
+     00aah              _segmentDisplayNumber
+     00aeh              _shiftData
+     00b2h              _receiveDataBit
+     00cfh              _INT1_INT_FUN
+     00e2h              r314
+     00e3h              r414
+     00e4h              r514
+     00e5h              r614
+     00e9h              _initializeHardware
+     0111h              _initializeSoftware
+     012fh              _runCountTask
+     016bh              _stepperUp
+     0197h              _stepperDown
+     01c3h              _fSegmentDisplay
+     02c5h              _main
+     02eah              _Crom2Prom
+     02eah              _Crom2PromNext
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     1000h     02f6h    18%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0066h    79%
+     01h       0080h     0000h    0%
+     02h       0080h     0000h    0%
+     03h       0080h     0000h    0%
+     Total     0200h     0066h    19%
+
+Use Stack Count
+_TIMER0_INT_FUN: 1
+_TIMER1_INT_FUN: 0
+_INT1_INT_FUN: 0
+_main: 2
+
+Call Tree
+    @dummy20
+        _TIMER0_INT_FUN (0)
+            _Crom2Prom (1)
+            _Crom2Prom (1)
+    @dummy24
+        _TIMER1_INT_FUN (0)
+    @dummy8
+        _INT1_INT_FUN (0)
+    @dummy
+        _main (0)
+            _initializeHardware (1)
+            _initializeSoftware (1)
+            _runCountTask (1)
+            _fSegmentDisplay (1)
+                _Crom2Prom (2)
+            _stepperUp (1)
+            _stepperDown (1)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'e:\comp_projects\5_tester_remote_controller\code\v2\tester_remote_controller_02\TESTER_REMOTE_CONTROLLER_02.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=P_7SEG_C Pin=R1-1
+Added Pin To Net: NetName=P_7SEG_G Pin=R1-1
+Added Member To Class: ClassName=TESTER_REMOTE_CONTROLLER_02 Member=Component D1 LED_BLUE
+Added Member To Class: ClassName=TESTER_REMOTE_CONTROLLER_02 Member=Component R11 330R
+Added Room: Name=TESTER_REMOTE_CONTROLLER_02
+Added Room: Name=TESTER_REMOTE_STEPPER_DRIVER_02
+Added Room: Name=TESTER_REMOTE_SWITCHING_02

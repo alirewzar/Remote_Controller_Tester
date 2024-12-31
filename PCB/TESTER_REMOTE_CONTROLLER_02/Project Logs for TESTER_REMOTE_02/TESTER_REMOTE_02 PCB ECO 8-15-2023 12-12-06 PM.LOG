@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=P?
+Change Component Designator: OldDesignator=* NewDesignator=1
+Added Room: Name=TESTER_REMOTE_STEPPER_DRIVER_02
+Added Room: Name=TESTER_REMOTE_SWITCHING_02

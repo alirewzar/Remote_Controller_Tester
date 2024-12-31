@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=P_7SEG_COM_1 Pin=S1-1
+Removed Pin From Net: NetName=P_7SEG_COM_2 Pin=S1-4
+Removed Pin From Net: NetName=P_7SEG_COM_3 Pin=S1-5
+Removed Pin From Net: NetName=P_7SEG_COM_4 Pin=S1-7
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=P?
+Removed Member From Class: ClassName=TESTER_REMOTE_CONTROLLER_02 Member=S1
+Added Component: Designator=*(7SEG_6DIGIT)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=TESTER_REMOTE_CONTROLLER_02 Member=Component * Component_1
+Added Room: Name=TESTER_REMOTE_CONTROLLER_02
+Added Room: Name=TESTER_REMOTE_STEPPER_DRIVER_02
+Added Room: Name=TESTER_REMOTE_SWITCHING_02

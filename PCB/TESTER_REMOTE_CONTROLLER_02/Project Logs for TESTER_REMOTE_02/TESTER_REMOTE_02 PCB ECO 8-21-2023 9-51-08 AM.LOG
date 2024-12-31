@@ -1,0 +1,4 @@
+Change Component Comment : Designator=U2 Old Comment=TNY274 New Comment=TNY278
+Added Room: Name=TESTER_REMOTE_CONTROLLER_02
+Added Room: Name=TESTER_REMOTE_STEPPER_DRIVER_02
+Added Room: Name=TESTER_REMOTE_SWITCHING_02

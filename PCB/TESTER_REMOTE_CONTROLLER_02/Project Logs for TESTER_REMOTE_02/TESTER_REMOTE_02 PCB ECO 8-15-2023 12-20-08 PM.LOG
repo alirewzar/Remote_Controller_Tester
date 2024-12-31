@@ -1,0 +1,6 @@
+Removed Member From Class: ClassName=TESTER_REMOTE_SWITCHING_02 Member=P?
+Added Component: Designator=SEGMENT(7SEG_6DIGIT)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=TESTER_REMOTE_CONTROLLER_02 Member=Component SEGMENT S?
+Added Room: Name=TESTER_REMOTE_STEPPER_DRIVER_02
+Added Room: Name=TESTER_REMOTE_SWITCHING_02
